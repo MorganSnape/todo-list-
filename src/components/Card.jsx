@@ -1,12 +1,12 @@
 export default function Card() {
   return (
-    <article className="grid">
+    <article className="grid" style={{ alignItems: "center" }}>
       <div>
-        <h2>Nombre de lista</h2>
+        <h3>Nombre de lista</h3>
         <p>Breve descripción</p>
       </div>
       <div>Pendiente</div>
-      <button>🗑️</button>
+      <button>Eliminar</button>
     </article>
   );
 }
